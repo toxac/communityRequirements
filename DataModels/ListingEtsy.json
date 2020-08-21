@@ -1,0 +1,48 @@
+{
+    "sellerName": "shopcandiceluter",
+    "totalSales": 521,
+    "listingTitle": "JoJo Fletcher X Etsy LIMITED EDITION (Aria)- Boho Mirror, Half-Moon Mirror, Macrame Mirror, Modern Mirror",
+    "listingPrice": 360.00,
+    "description": "Meet this EXCLUSIVE color-blocked addition to the 'Aria' collection! I am so excited and honored to be a part of Etsy's newest capsule collection with NBC's 'Cash Pad' star JoJo Fletcher. ",
+    "dimension": {
+        "height": 32,
+        "width": 30
+    },
+    "material": ["glass", "mirror", "wood"],
+    "label": ["handmade"],
+    "deliveryCoverage": "...",
+    "deliveryPolicy": "...",
+    "returnPolicy": "...",
+    "dispatchLocation": "...",
+    "shopPolicies": "...",
+    "FAQ": "...",
+    "shopReviews": [{
+            "user": "....",
+            "reviewStar": 4,
+            "reviewText": "",
+            "reviewDate": ""
+        },
+        {
+            "user": "....",
+            "reviewStar": 4,
+            "reviewText": "",
+            "reviewDate": ""
+        }
+    ],
+    "listingImages": [{
+            "title": "..",
+            "altText": " ...",
+            "imgURL": "...",
+            "captionText": "..."
+        },
+        {
+            "title": "..",
+            "altText": " ...",
+            "imgURL": "...",
+            "captionText": "..."
+        }
+    ]
+
+
+
+}
