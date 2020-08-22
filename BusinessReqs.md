@@ -19,3 +19,14 @@ Most classified websites offer premium listings as their business model; others 
 - For currency conversions
 - Depending on the niche, there might be other fees.
 
+## Governance 
+
+- Involve users in key decision making process either as advisors or users group or maybe even give them rolling positions on board.
+
+
+## GoTo Market  
+- Local fairs  
+- Find creators and craft people  
+- Food people 
+- Events people
+- 
