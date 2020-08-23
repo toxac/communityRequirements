@@ -3,6 +3,7 @@
 Peer-to-peer marketplaces, on the other hand, offer a platform for both sellers and buyers. And, most importantly, users can play both roles: a seller can become a buyer and a buyer can sell something. The two roles are equal and easy to switch between. Hence, the name peer-to-peer.
 
 ## Transactions
+
 - With classified websites, transactions typically take place off the platform via a channel mutually agreed by the seller and buyer.
 - P2P marketplaces are like going to a market — you see a product you want, you pay for it right then and there, and you have it delivered to you.
 - Peer to peer marketplaces offer tools to facilitate the buying process, including a means to pay for products and services.
@@ -19,14 +20,14 @@ Most classified websites offer premium listings as their business model; others 
 - For currency conversions
 - Depending on the niche, there might be other fees.
 
-## Governance 
+## Governance
 
 - Involve users in key decision making process either as advisors or users group or maybe even give them rolling positions on board.
 
+## GoTo Market
 
-## GoTo Market  
-- Local fairs  
-- Find creators and craft people  
-- Food people 
+- Local fairs
+- Find creators and craft people
+- Food people
 - Events people
-- 
+-

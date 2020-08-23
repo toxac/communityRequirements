@@ -8,5 +8,9 @@
     "description": "",
     "aboutSeller": "",
     "verification": "",
-    "status": ""
+    "status": "",
+    "schemaDetails": {
+        "schemaVersion": "0.0.1",
+        "schemaDate": "23-August-2020"
+    }
 }
