@@ -1,0 +1,34 @@
+{
+    "id": "",
+    "nickname": "",
+    "firstName": "",
+    "lastName": "",
+    "email": "",
+    "mobileNumber": "",
+    "addressFlatBuilding": "",
+    "addressCommunity": "",
+    "addressLocality": "",
+    "addressPincode": "",
+    "isSeller": "",
+    "isVerified": "",
+    "description": "",
+    "imagesURLS": "",
+    "socialProfile": "",
+    "geoLocation": {
+        "type": "POINT",
+        "lat": "",
+        "long": ""
+    },
+    "gender": "",
+    "dateOfBirth": " if child then consent of parents required",
+    "preferences": ["a", "b"],
+    "favourites": ["a", "b"],
+    "advanceProfile": {
+        "highestEducation": "",
+        "hobbiesAndInterests": "",
+        "occupation": ""
+    },
+    "status": "",
+    "lastLogin": "",
+    "password": ""
+}
