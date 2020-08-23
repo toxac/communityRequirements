@@ -10,7 +10,9 @@ The project is in two parts
 ### Business
 
 - businessRequirement document
-- /Classification : all categories, tags, flags, labels and attributes
+- /Classification : all categories, tags, flags, labels and attributes (Strategic and operational)
+- /Legal: all the regulatory details
+- /Policies: CommEx policies
 
 ### DataModel
 
