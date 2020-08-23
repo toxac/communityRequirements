@@ -31,8 +31,10 @@
     "status": "",
     "lastLogin": "",
     "password": "",
-    "schemaDetails": {
-        "schemaVersion": "0.0.1",
-        "schemaDate": "23-August-2020"
+    "metadata": {
+        "fileDescription": "Shema for users",
+        "version": "0.0.1",
+        "date": "23-august-2020",
+        "content": " Schema"
     }
 }
