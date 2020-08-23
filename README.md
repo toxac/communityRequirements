@@ -10,6 +10,7 @@ The project is in two parts
 ### Business
 
 - businessRequirement document
+- /Classification : all categories, tags, flags, labels and attributes
 
 ### DataModel
 
