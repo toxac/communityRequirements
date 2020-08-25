@@ -12,6 +12,9 @@ const express = require('express')
 const cors = require('cors');
 const mongoose = require('mongoose');
 
+console.log("ok");
+
+const port = process.env.PORT || 3000;
 const app = express();
 
 /*
@@ -24,6 +27,13 @@ app.use(express.json())
   ------- ROUTES --------
 */
 
-app.listen(process.env.PORT || 3000, () => {
-    `app is listening on port ${PORT}`
+app.use('/user', require('./Routes/UserRoutes'));
+app.use('/listing', require('./Routes/ListingRoutes'));
+app.use('/shop', require('./Routes/ShopRoutes'));
+app.use('/orders', require('./Routes/OrderRoutes'));
+app.use('/usersessions', require('./Routes/SessionRoutes'))
+app.use('/auth', require('./Routes/AuthRoutes'));
+
+app.listen(port, () => {
+    console.log(`app is listening on port ${port}`)
 });
