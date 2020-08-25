@@ -7,3 +7,9 @@
 */
 
 const express = require('express');
+
+const app = express();
+
+app.listen(PORT, () => {
+    `app is listening on port ${PORT}`
+});
