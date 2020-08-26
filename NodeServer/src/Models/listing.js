@@ -2,13 +2,16 @@ const mongoose = require('mongoose');
 
 const ImageSchema = new mongoose.Schema({
     url: {
-        type: String
+        type: String,
+        required: true
     },
     altText: {
-        type: String
+        type: String,
+        required: true
     },
     caption: {
-        type: String
+        type: String,
+        required: true
     }
 })
 
@@ -29,7 +32,9 @@ const ListingSchema = new mongoose.Schema({
         required: true,
         // front end will take the options from options collection
     },
-    images: [ImageSchema],
+    images: {
+        type: [ImageSchema]
+    },
     price: "",
     description: "",
     stock: "",
