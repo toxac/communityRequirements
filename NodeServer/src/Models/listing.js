@@ -1,12 +1,35 @@
 const mongoose = require('mongoose');
 
+const ImageSchema = new mongoose.Schema({
+    url: {
+        type: String
+    },
+    altText: {
+        type: String
+    },
+    caption: {
+        type: String
+    }
+})
+
 const ListingSchema = new mongoose.Schema({
     listingId: "",
     userId: "",
-    listingTitle: "",
-    categories: "",
-    tags: "",
-    images: "",
+    listingTitle: {
+        type: String,
+        required: true,
+    },
+    categories: {
+        type: String,
+        required: true,
+        // front end will take the options from options collection
+    },
+    tags: {
+        type: String,
+        required: true,
+        // front end will take the options from options collection
+    },
+    images: [ImageSchema],
     price: "",
     description: "",
     stock: "",
@@ -20,10 +43,9 @@ const ListingSchema = new mongoose.Schema({
     reviewsAndRating: [{
         rating: 3,
         reviews: "",
-        user: ""
-    }]
-
-})
+        user: "",
+    }, ],
+});
 
 const Listing = mongoose.model('Listing', ListingSchema)
 
