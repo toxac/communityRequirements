@@ -35,11 +35,25 @@ const ListingSchema = new mongoose.Schema({
     images: {
         type: [ImageSchema]
     },
-    price: "",
-    description: "",
-    stock: "",
+    price: {
+        type: Number,
+        required: true
+    },
+    description: {
+        type: String,
+    },
+    stock: {
+        measure: { type: String },
+        quantity: { type: Number },
+    },
+    /* Should we manage inventory?
+        A array field which will capture all the inventory changes
+        or should we do it in separate collection
+    */
     listingAttributes: {},
-    labels: "auto detect and suggest labels",
+    labels: {
+        type: [String] // maybe it can come from a option collection
+    },
     discount: "",
     coupons: "",
     deliveryPolicy: "can be set at store level or listing level",
