@@ -1,0 +1,33 @@
+{
+    "metadata": {
+        "description": " File lists categories and subcategories and related attributes",
+        "version": "0.0.1",
+        "project": "code-CommEx",
+        "author": "Amit Chanchal"
+    },
+    "data": [{
+        "name": "clothing and accesories",
+        "level": 1,
+        "attributes": [{
+            "type": "desc"
+        }],
+        "sublevel": [{
+            "name": "men",
+            "level": 2,
+            "sublevel": [{
+                    "name": "clothing",
+                    "level": 3,
+                    "sublevel": ["shirts", "jeans", "shorts", "soprtwear", "ethnicwear", "trousers", "winterwear", "innerwear"]
+                },
+                {
+                    "name": "accessories",
+                    "level": 3,
+                    "sublevels": ["ties", "belts", "cufflinks", "wallet", "handkerchief"]
+                }
+
+            ]
+        }]
+
+
+    }]
+}

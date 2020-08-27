@@ -15,7 +15,7 @@ Just as classified websites do, marketplaces usually charge sellers, not buyers.
 
 Most classified websites offer premium listings as their business model; others use ads (some combine the two). It’s also possible to use a pay-per-click model or implement limits for free accounts. All these monetization methods are used on P2P marketplaces. But usually, marketplaces charge fees:
 
-- For listings
+- For listings (commissions): 5% to 20%
 - For sales
 - For currency conversions
 - Depending on the niche, there might be other fees.
